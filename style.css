@@ -1,0 +1,104 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 100px auto;
+  padding: 0;
+  font-size: 2em;
+  background-image: url(./images/abstract-square-interface-modern-background-concept-fingerprint-digital-scanning-visual-security-system-authentication-login-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-container {
+  margin: auto;
+  text-align: center;
+  /* border: 1px solid rgb(255, 255, 255); */
+  backdrop-filter: blur(10px);
+}
+h1 {
+  text-align: center;
+  color: #ffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  /* border: 1px solid rgb(255, 255, 255); */
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffff;
+}
+.container table {
+  margin: auto;
+  text-align: center;
+}
+.container td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0.1em;
+}
+.container button {
+  width: 100%;
+  padding: 0.2em;
+  font-size: large;
+}
+.container select {
+  width: 100%;
+  font-size: medium;
+  font-family: cursive;
+  background-color: transparent;
+  color: black;
+}
+.container input {
+  padding: 0.3em;
+  font-size: large;
+  font-weight: 400;
+  font-family: cursive;
+  background-color: transparent;
+  color: #ffff;
+}
+
+#resultContainer {
+  text-align: center;
+  padding: 1em;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#resultContainer table {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 2px;
+  margin: auto;
+}
+#resultContainer th {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: bisque;
+}
+#resultContainer tbody td {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  color: white;
+}
+.delete-btn {
+  background-color: red;
+  border: 1px solid red;
+  padding: 6px;
+  font-size: large;
+  color: #ffff;
+}
+.delete-btn:hover {
+  cursor: pointer;
+  color: red;
+  background-color: aliceblue;
+  border: 1px solid white;
+}
+#btn {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+#btn:hover {
+  color: black;
+  background-color: rgb(142, 141, 141);
+  border: 1px solid black;
+  cursor: pointer;
+}
