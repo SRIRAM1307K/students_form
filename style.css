@@ -53,13 +53,14 @@ h1 {
   padding: 0.3em;
   font-size: large;
   font-weight: 400;
-  font-family: cursive;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: transparent;
   color: #ffff;
 }
 
 #resultContainer {
   text-align: center;
+  width: auto;
   padding: 1em;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -68,6 +69,7 @@ h1 {
   border: 1px solid rgb(255, 255, 255);
   padding: 2px;
   margin: auto;
+  width: auto;
 }
 #resultContainer th {
   border: 1px solid rgb(255, 255, 255);
@@ -101,4 +103,32 @@ h1 {
   background-color: rgb(142, 141, 141);
   border: 1px solid black;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: larger;
+  }
+  .container {
+    font-size: small;
+  }
+  .container input {
+    font-size: small;
+  }
+  #resultContainer {
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .delete-btn {
+    background-color: red;
+    border: 1px solid red;
+    padding: 2px;
+    font-size: small;
+    color: #ffff;
+  }
 }
