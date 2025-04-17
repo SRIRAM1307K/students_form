@@ -4,7 +4,7 @@ body {
   margin: 100px auto;
   padding: 0;
   font-size: 2em;
-  background-image: url(./images/abstract-square-interface-modern-background-concept-fingerprint-digital-scanning-visual-security-system-authentication-login-vector.jpg);
+  background-image: url(./images/istockphoto-517188688-1024x1024.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,7 +27,7 @@ h1 {
   padding: 2em;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #ffff;
+  color: black;
 }
 .container table {
   margin: auto;
@@ -55,7 +55,7 @@ h1 {
   font-weight: 400;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: transparent;
-  color: #ffff;
+  color: black;
 }
 
 #resultContainer {
